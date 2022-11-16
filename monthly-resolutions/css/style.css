@@ -1,0 +1,115 @@
+
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+
+
+body{
+     font-family: 'Lato', sans-serif;
+     line-height: 1.7;
+     background: url('../images/notebook.png'), #d6d6d6;
+     color: #000000;
+     font-size: 100%;
+}
+
+body #section{
+     width: 1000px;
+     margin: 0 auto;
+}
+
+.close{
+     margin-bottom: 0;
+     padding: 0;
+}
+
+
+
+h1.text-spacing.close {
+     font-size: 45px;
+ }
+
+ p.close {
+     transform: translateY(-20px);
+ }
+
+
+ .main{
+     background-color: #ffffff;
+     width: 600px;
+     float: left;
+     padding: 20px;
+ }
+
+
+ .sidebar{
+     background-color: #ffffff;
+     float: left;
+     width: 270px;
+     margin: 0 0 0 15px;
+     padding: 25px;
+     box-shadow: -5px 2px #d3d1d1;
+ }
+
+.circular-image{
+     width: 140px;
+     height: 140px;
+     border-radius: 50%;
+     overflow: hidden;
+     margin-bottom: 14px;
+}
+
+.sidebar p {
+     font-size: 13px;
+     margin-left: 6px;
+ }
+
+ul {
+     list-style-type: disc;
+     padding-left: 40px;
+}
+
+h5{
+     font-size: 20px;
+}
+
+blockquote{
+     margin-left: 0;
+     border: 0px solid grey;
+     border-left-width: 3px;
+}
+
+.blockquote-text{
+     margin-left: 40px;
+}
+
+a{
+     color: red;
+}
+ 
+
+.opaque{
+     opacity: 0.5;
+}
+
+.blog2, .blog3{
+     margin-top: 80px;
+}
+
+h2{
+     font-weight: 500;
+}
+
